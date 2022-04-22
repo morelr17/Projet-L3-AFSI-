@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Connexion </title>
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" class="js-color-style" href="css/colors/color-1.css">
+  <link rel="stylesheet" class="js-glass-style" href="css/glass.css" disabled> 
+  
+</head>
+<body>
+
+<!-- page loader start -->
+<div class="page-loader js-page-loader">
+  <div></div>
+</div>
+<!-- page loader end -->
+
+<!-- main wrapper start -->
+<div class="main-wrapper">
+
+  <!-- header start -->
+  <header class="header">
+    <div class="container">
+      <div class="header-main d-flex justify-content-between align-items-center">
+        <div class="header-logo">
+          <a href="index.html"><span>GC</span>CHECKER</a>
+        </div>
+        <button type="button" class="header-hamburger-btn js-header-menu-toggler">
+          <span></span>
+        </button>
+        <div class="header-backdrop js-header-backdrop"></div>
+        <nav class="header-menu js-header-menu">
+          <button type="button" class="header-close-btn js-header-menu-toggler">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="menu">
+            <li class="menu-item"><a href="index.html">home</a></li>
+            <li class="menu-item menu-item-has-children">
+              <a href="#" class="js-toggle-sub-menu">Cours <i class="fas fa-chevron-down"></i></a>
+              <ul class="sub-menu js-sub-menu">
+                 <li class="sub-menu-item"><a href="courses.html">Cours</a></li>
+                 <li class="sub-menu-item"><a href="course-details.html">course details</a></li>
+              </ul>
+            </li>
+            <li class="menu-item menu-item-has-children">
+              <a href="#" class="js-toggle-sub-menu">S'authentifier <i class="fas fa-chevron-down"></i></a>
+              <ul class="sub-menu js-sub-menu">
+                  <li class="sub-menu-item"><a href="log-in.html">Se connecter</a></li>
+                  <li class="sub-menu-item"><a href="sign-up.html">S'inscrire</a></li>
+              </ul>
+            </li>
+            <li class="menu-item"><a href="contact.html">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+  <!-- breadcrumb start -->
+  <div class="breadcrumb-nav">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb mb-0">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Se connecter</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+  <!-- breadcrumb end -->
+
+  <!-- login section start -->
+  <section class="login-section section-padding">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-7 col-lg-6 col-xl-5">
+          <div class="login-form box">
+            <h2 class="form-title text-center">Connectez-vous à votre compte</h2>
+            <form>
+              <div class="form-group">
+                <input type="email" id="inputEmail" class="form-control" />
+              </div>
+              <div class="form-group">
+                <div class="d-flex mb-2 justify-content-end"><a href="#">Mot de passe oublié ?</a></div>
+                <input type="password" id="inputPassword" class="form-control" />
+              </div> 
+              
+              <button type="submit" class="btn btn-primary btn-block mb-4" id="signin">Se connecter</button> 
+              <button type="submit" class="btn btn-primary btn-block mb-4" id="signup">S'enregistrer</button>
+
+              <p class="text-center mt-4 mb-0">Vous n'avez pas de compte ? <a href="sign-up.html">S'inscrire</a></p>
+            </form>
+             <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+              <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+              <script src="app.js"></script>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- login section end -->
+
+  <!-- footer start -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-item">
+              <h3 class="footer-logo"><span>GC</span>CHECKER</h3>
+              <ul>
+                <li><a href="#">À Propos</a></li>
+                <li><a href="#">Ce Que Nous Offrons</a></li>
+                <li><a href="#">Carrières</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-item">
+              <h3>Apprentissage</h3>
+              <ul>
+                <li><a href="#">Obtenir L'application</a></li>
+                <li><a href="#">Témoignages</a></li>
+                <li><a href="#">FAQ</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-item">
+              <h3>Plus</h3>
+              <ul>
+                <li><a href="#">Devenez Un Bon Analyste</a></li>
+                <li><a href="#">Nos Engagements</a></li>
+                <li><a href="#">Aide Et Soutien</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="footer-item">
+              <h3>Entrer en contact</h3>
+              <ul>
+                <li><a href="#"><i class="fab fa-facebook social-icon"></i> facebook</a></li>
+                <li><a href="#"><i class="fab fa-twitter social-icon"></i> twitter</a></li>
+                <li><a href="#"><i class="fab fa-instagram social-icon"></i> instagram</a></li>
+                <li><a href="#"><i class="fab fa-youtube social-icon"></i> youtube</a></li>
+                <li><a href="#"><i class="fab fa-linkedin social-icon"></i> linkedin</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="m-0 py-4 text-center">Copyright &copy;2022 GC CHECKER</p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+
+</div>
+<!-- main wrapper end -->
+
+<!-- style switcher start -->
+<div class="style-switcher js-style-switcher">
+  <div class="style-switcher-toggler js-style-switcher-toggler">
+    <i class="fas fa-cog"></i>
+  </div>
+  <h3>Sélecteur De Styles</h3>
+  <div class="style-switcher-item">
+    <p class="mb-2">Couleurs du thème</p>
+    <!-- theme colors -->
+    <div class="theme-colors js-theme-colors">
+      <button type="button" data-js-theme-color="color-1" class="js-theme-color-item color-1"></button>
+      <button type="button" data-js-theme-color="color-2" class="js-theme-color-item color-2"></button>
+      <button type="button" data-js-theme-color="color-3" class="js-theme-color-item color-3"></button>
+      <button type="button" data-js-theme-color="color-4" class="js-theme-color-item color-4"></button>
+      <button type="button" data-js-theme-color="color-5" class="js-theme-color-item color-5"></button>
+    </div>
+  </div>
+  <div class="style-switcher-item">
+   <div class="form-check form-switch">
+     <input class="form-check-input js-dark-mode" type="checkbox" role="switch" id="dark-mode">
+     <label class="form-check-label" for="dark-mode">Dark Mode</label>
+   </div>
+  </div>
+  <div class="style-switcher-item">
+   <div class="form-check form-switch">
+     <input class="form-check-input js-glass-effect" type="checkbox" role="switch" id="glass-effect">
+     <label class="form-check-label" for="glass-effect">Glass Effect</label>
+   </div>
+  </div>
+</div>
+<!-- style switcher end -->
+
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+<script src="app.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>  
+<script src="js/main.js"></script>
+</body>
+</html>

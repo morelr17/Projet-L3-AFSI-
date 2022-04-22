@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn2:tDefinitions xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI" xmi:id="_wSbnUJipEeywH4imXz37fQ" name="bpmnTT" targetNamespace="http://genmymodel.com/bpmn2">
+  <eAnnotations xmi:id="_wSbnUJipEeywH4imXz37fQ0" source="genmymodel">
+    <details xmi:id="_wSbnUJipEeywH4imXz37fQ00" key="uuid" value="_wSbnUJipEeywH4imXz37fQ"/>
+    <details xmi:id="_wSbnUJipEeywH4imXz37fQ01" key="author" value="gccheker"/>
+  </eAnnotations>
+  <bpmn2:rootElement xsi:type="bpmn2:tCollaboration" xmi:id="_u6npEHrXEDqTsv_oMt1zow" isClosed="true">
+    <eAnnotations xmi:id="_u6npEHrXEDqTsv_oMt1zow0" source="genmymodel">
+      <details xmi:id="_u6npEHrXEDqTsv_oMt1zow00" key="uuid" value="_u6npEHrXEDqTsv_oMt1zow"/>
+    </eAnnotations>
+    <bpmn2:participant xmi:id="_u6zPQHrXEDqTsv_oMt1zow" name="user1" processRef="_wSbnUJipEeywH4imXz37fQ.xmi#_u6vk4HrXEDqTsv_oMt1zow">
+      <eAnnotations xmi:id="_u6zPQHrXEDqTsv_oMt1zow0" source="genmymodel">
+        <details xmi:id="_u6zPQHrXEDqTsv_oMt1zow00" key="uuid" value="_u6zPQHrXEDqTsv_oMt1zow"/>
+      </eAnnotations>
+    </bpmn2:participant>
+    <bpmn2:participant xmi:id="_yJuCUHrXEDqTsv_oMt1zow" name="user2" processRef="_wSbnUJipEeywH4imXz37fQ.xmi#_yJuCUXrXEDqTsv_oMt1zow">
+      <eAnnotations xmi:id="_yJuCUHrXEDqTsv_oMt1zow0" source="genmymodel">
+        <details xmi:id="_yJuCUHrXEDqTsv_oMt1zow00" key="uuid" value="_yJuCUHrXEDqTsv_oMt1zow"/>
+      </eAnnotations>
+    </bpmn2:participant>
+    <bpmn2:messageFlow xmi:id="_8Brl8HrXEDqTsv_oMt1zow" name="F01:Facture" sourceRef="_wSbnUJipEeywH4imXz37fQ.xmi#_w7uoYn-9EDqJT-8cQkDuwA" targetRef="_wSbnUJipEeywH4imXz37fQ.xmi#_4w_RQHrXEDqTsv_oMt1zow">
+      <eAnnotations xmi:id="_8Brl8HrXEDqTsv_oMt1zow0" source="genmymodel">
+        <details xmi:id="_8Brl8HrXEDqTsv_oMt1zow00" key="uuid" value="_8Brl8HrXEDqTsv_oMt1zow"/>
+      </eAnnotations>
+    </bpmn2:messageFlow>
+    <bpmn2:messageFlow xmi:id="_O0YP8HrYEDqTsv_oMt1zow" name="F02:Recu" sourceRef="_wSbnUJipEeywH4imXz37fQ.xmi#_F2jZUHrYEDqTsv_oMt1zow" targetRef="_wSbnUJipEeywH4imXz37fQ.xmi#_HNk2oHrYEDqTsv_oMt1zow">
+      <eAnnotations xmi:id="_O0YP8HrYEDqTsv_oMt1zow0" source="genmymodel">
+        <details xmi:id="_O0YP8HrYEDqTsv_oMt1zow00" key="uuid" value="_O0YP8HrYEDqTsv_oMt1zow"/>
+      </eAnnotations>
+    </bpmn2:messageFlow>
+  </bpmn2:rootElement>
+  <bpmn2:rootElement xsi:type="bpmn2:tProcess" xmi:id="_u6vk4HrXEDqTsv_oMt1zow" name="Processus">
+    <eAnnotations xmi:id="_u6vk4HrXEDqTsv_oMt1zow0" source="genmymodel">
+      <details xmi:id="_u6vk4HrXEDqTsv_oMt1zow00" key="uuid" value="_u6vk4HrXEDqTsv_oMt1zow"/>
+    </eAnnotations>
+    <bpmn2:flowElement xsi:type="bpmn2:tStartEvent" xmi:id="_zfIWEHrXEDqTsv_oMt1zow" name="Début">
+      <eAnnotations xmi:id="_zfIWEHrXEDqTsv_oMt1zow0" source="genmymodel">
+        <details xmi:id="_zfIWEHrXEDqTsv_oMt1zow00" key="uuid" value="_zfIWEHrXEDqTsv_oMt1zow"/>
+      </eAnnotations>
+      <bpmn2:outgoing>_2xtkUH-9EDqJT-8cQkDuwA</bpmn2:outgoing>
+    </bpmn2:flowElement>
+    <bpmn2:flowElement xsi:type="bpmn2:tEndEvent" xmi:id="_CO6kQHrYEDqTsv_oMt1zow" name="Fin">
+      <eAnnotations xmi:id="_CO6kQHrYEDqTsv_oMt1zow0" source="genmymodel">
+        <details xmi:id="_CO6kQHrYEDqTsv_oMt1zow00" key="uuid" value="_CO6kQHrYEDqTsv_oMt1zow"/>
+      </eAnnotations>
+      <bpmn2:incoming>_M5jiAHrYEDqTsv_oMt1zow</bpmn2:incoming>
+    </bpmn2:flowElement>
+    <bpmn2:flowElement xsi:type="bpmn2:tSequenceFlow" xmi:id="_2xtkUH-9EDqJT-8cQkDuwA" sourceRef="_zfIWEHrXEDqTsv_oMt1zow" targetRef="_w7uoYn-9EDqJT-8cQkDuwA">
+      <eAnnotations xmi:id="_2xtkUH-9EDqJT-8cQkDuwA0" source="genmymodel">
+        <details xmi:id="_2xtkUH-9EDqJT-8cQkDuwA00" key="uuid" value="_2xtkUH-9EDqJT-8cQkDuwA"/>
+      </eAnnotations>
+    </bpmn2:flowElement>
+    <bpmn2:flowElement xsi:type="bpmn2:tIntermediateCatchEvent" xmi:id="_HNk2oHrYEDqTsv_oMt1zow" name="">
+      <eAnnotations xmi:id="_HNk2oHrYEDqTsv_oMt1zow0" source="genmymodel">
+        <details xmi:id="_HNk2oHrYEDqTsv_oMt1zow00" key="uuid" value="_HNk2oHrYEDqTsv_oMt1zow"/>
+      </eAnnotations>
+      <bpmn2:incoming>_jZlWYH_bEDqf8IaH0CHtcQ</bpmn2:incoming>
+      <bpmn2:outgoing>_M5jiAHrYEDqTsv_oMt1zow</bpmn2:outgoing>
+      <bpmn2:eventDefinition xsi:type="bpmn2:tMessageEventDefinition" xmi:id="_HNk2oXrYEDqTsv_oMt1zow">
+        <eAnnotations xmi:id="_HNk2oXrYEDqTsv_oMt1zow0" source="genmymodel">
+          <details xmi:id="_HNk2oXrYEDqTsv_oMt1zow00" key="uuid" value="_HNk2oXrYEDqTsv_oMt1zow"/>
+        </eAnnotations>
+      </bpmn2:eventDefinition>
+    </bpmn2:flowElement>
+    <bpmn2:flowElement xsi:type="bpmn2:tSequenceFlow" xmi:id="_M5jiAHrYEDqTsv_oMt1zow" sourceRef="_HNk2oHrYEDqTsv_oMt1zow" targetRef="_CO6kQHrYEDqTsv_oMt1zow">
+      <eAnnotations xmi:id="_M5jiAHrYEDqTsv_oMt1zow0" source="genmymodel">
+        <details xmi:id="_M5jiAHrYEDqTsv_oMt1zow00" key="uuid" value="_M5jiAHrYEDqTsv_oMt1zow"/>
+      </eAnnotations>
+    </bpmn2:flowElement>
+    <bpmn2:flowElement xsi:type="bpmn2:tIntermediateThrowEvent" xmi:id="_w7uoYn-9EDqJT-8cQkDuwA" name="">
+      <eAnnotations xmi:id="_w7uoYn-9EDqJT-8cQkDuwA0" source="genmymodel">
+        <details xmi:id="_w7uoYn-9EDqJT-8cQkDuwA00" key="uuid" value="_w7uoYn-9EDqJT-8cQkDuwA"/>
+      </eAnnotations>
+      <bpmn2:incoming>_2xtkUH-9EDqJT-8cQkDuwA</bpmn2:incoming>
+      <bpmn2:outgoing>_jZlWYH_bEDqf8IaH0CHtcQ</bpmn2:outgoing>
+      <bpmn2:eventDefinition xsi:type="bpmn2:tMessageEventDefinition" xmi:id="_w7uoY3-9EDqJT-8cQkDuwA">
+        <eAnnotations xmi:id="_w7uoY3-9EDqJT-8cQkDuwA0" source="genmymodel">
+          <details xmi:id="_w7uoY3-9EDqJT-8cQkDuwA00" key="uuid" value="_w7uoY3-9EDqJT-8cQkDuwA"/>
+        </eAnnotations>
+      </bpmn2:eventDefinition>
+    </bpmn2:flowElement>
+    <bpmn2:flowElement xsi:type="bpmn2:tSequenceFlow" xmi:id="_jZlWYH_bEDqf8IaH0CHtcQ" sourceRef="_w7uoYn-9EDqJT-8cQkDuwA" targetRef="_HNk2oHrYEDqTsv_oMt1zow">
+      <eAnnotations xmi:id="_jZlWYH_bEDqf8IaH0CHtcQ0" source="genmymodel">
+        <details xmi:id="_jZlWYH_bEDqf8IaH0CHtcQ00" key="uuid" value="_jZlWYH_bEDqf8IaH0CHtcQ"/>
+      </eAnnotations>
+    </bpmn2:flowElement>
+  </bpmn2:rootElement>
+  <bpmn2:rootElement xsi:type="bpmn2:tProcess" xmi:id="_yJuCUXrXEDqTsv_oMt1zow" name="Processus">
+    <eAnnotations xmi:id="_yJuCUXrXEDqTsv_oMt1zow0" source="genmymodel">
+      <details xmi:id="_yJuCUXrXEDqTsv_oMt1zow00" key="uuid" value="_yJuCUXrXEDqTsv_oMt1zow"/>
+    </eAnnotations>
+    <bpmn2:flowElement xsi:type="bpmn2:tStartEvent" xmi:id="_z5qV8HrXEDqTsv_oMt1zow" name="Début">
+      <eAnnotations xmi:id="_z5qV8HrXEDqTsv_oMt1zow0" source="genmymodel">
+        <details xmi:id="_z5qV8HrXEDqTsv_oMt1zow00" key="uuid" value="_z5qV8HrXEDqTsv_oMt1zow"/>
+      </eAnnotations>
+      <bpmn2:outgoing>_A8D1QHrYEDqTsv_oMt1zow</bpmn2:outgoing>
+    </bpmn2:flowElement>
+    <bpmn2:flowElement xsi:type="bpmn2:tIntermediateCatchEvent" xmi:id="_4w_RQHrXEDqTsv_oMt1zow" name="">
+      <eAnnotations xmi:id="_4w_RQHrXEDqTsv_oMt1zow0" source="genmymodel">
+        <details xmi:id="_4w_RQHrXEDqTsv_oMt1zow00" key="uuid" value="_4w_RQHrXEDqTsv_oMt1zow"/>
+      </eAnnotations>
+      <bpmn2:incoming>_A8D1QHrYEDqTsv_oMt1zow</bpmn2:incoming>
+      <bpmn2:outgoing>_ElbvsHrYEDqTsv_oMt1zow</bpmn2:outgoing>
+      <bpmn2:eventDefinition xsi:type="bpmn2:tMessageEventDefinition" xmi:id="_4w_4UHrXEDqTsv_oMt1zow">
+        <eAnnotations xmi:id="_4w_4UHrXEDqTsv_oMt1zow0" source="genmymodel">
+          <details xmi:id="_4w_4UHrXEDqTsv_oMt1zow00" key="uuid" value="_4w_4UHrXEDqTsv_oMt1zow"/>
+        </eAnnotations>
+      </bpmn2:eventDefinition>
+    </bpmn2:flowElement>
+    <bpmn2:flowElement xsi:type="bpmn2:tSequenceFlow" xmi:id="_A8D1QHrYEDqTsv_oMt1zow" sourceRef="_z5qV8HrXEDqTsv_oMt1zow" targetRef="_4w_RQHrXEDqTsv_oMt1zow">
+      <eAnnotations xmi:id="_A8D1QHrYEDqTsv_oMt1zow0" source="genmymodel">
+        <details xmi:id="_A8D1QHrYEDqTsv_oMt1zow00" key="uuid" value="_A8D1QHrYEDqTsv_oMt1zow"/>
+      </eAnnotations>
+    </bpmn2:flowElement>
+    <bpmn2:flowElement xsi:type="bpmn2:tEndEvent" xmi:id="_Bl2ZIHrYEDqTsv_oMt1zow" name="Fin">
+      <eAnnotations xmi:id="_Bl2ZIHrYEDqTsv_oMt1zow0" source="genmymodel">
+        <details xmi:id="_Bl2ZIHrYEDqTsv_oMt1zow00" key="uuid" value="_Bl2ZIHrYEDqTsv_oMt1zow"/>
+      </eAnnotations>
+      <bpmn2:incoming>_F2kAYXrYEDqTsv_oMt1zow</bpmn2:incoming>
+    </bpmn2:flowElement>
+    <bpmn2:flowElement xsi:type="bpmn2:tSequenceFlow" xmi:id="_ElbvsHrYEDqTsv_oMt1zow" sourceRef="_4w_RQHrXEDqTsv_oMt1zow" targetRef="_F2jZUHrYEDqTsv_oMt1zow">
+      <eAnnotations xmi:id="_ElbvsHrYEDqTsv_oMt1zow0" source="genmymodel">
+        <details xmi:id="_ElbvsHrYEDqTsv_oMt1zow00" key="uuid" value="_ElbvsHrYEDqTsv_oMt1zow"/>
+      </eAnnotations>
+    </bpmn2:flowElement>
+    <bpmn2:flowElement xsi:type="bpmn2:tSequenceFlow" xmi:id="_F2kAYXrYEDqTsv_oMt1zow" sourceRef="_F2jZUHrYEDqTsv_oMt1zow" targetRef="_Bl2ZIHrYEDqTsv_oMt1zow">
+      <eAnnotations xmi:id="_F2kAYXrYEDqTsv_oMt1zow0" source="genmymodel">
+        <details xmi:id="_F2kAYXrYEDqTsv_oMt1zow00" key="uuid" value="_F2kAYXrYEDqTsv_oMt1zow"/>
+      </eAnnotations>
+    </bpmn2:flowElement>
+    <bpmn2:flowElement xsi:type="bpmn2:tIntermediateThrowEvent" xmi:id="_F2jZUHrYEDqTsv_oMt1zow" name="">
+      <eAnnotations xmi:id="_F2jZUHrYEDqTsv_oMt1zow0" source="genmymodel">
+        <details xmi:id="_F2jZUHrYEDqTsv_oMt1zow00" key="uuid" value="_F2jZUHrYEDqTsv_oMt1zow"/>
+      </eAnnotations>
+      <bpmn2:incoming>_ElbvsHrYEDqTsv_oMt1zow</bpmn2:incoming>
+      <bpmn2:outgoing>_F2kAYXrYEDqTsv_oMt1zow</bpmn2:outgoing>
+      <bpmn2:eventDefinition xsi:type="bpmn2:tMessageEventDefinition" xmi:id="_F2kAYHrYEDqTsv_oMt1zow">
+        <eAnnotations xmi:id="_F2kAYHrYEDqTsv_oMt1zow0" source="genmymodel">
+          <details xmi:id="_F2kAYHrYEDqTsv_oMt1zow00" key="uuid" value="_F2kAYHrYEDqTsv_oMt1zow"/>
+        </eAnnotations>
+      </bpmn2:eventDefinition>
+    </bpmn2:flowElement>
+  </bpmn2:rootElement>
+</bpmn2:tDefinitions>
